@@ -1,0 +1,54 @@
+
+
+
+
+
+            div.plavi{ 
+                background-color: lightblue;
+            
+            } 
+            #id{
+                background-color: lightgreen;
+                color: red;
+               
+            } 
+            
+
+
+div.zuti{
+    text-align: right;
+    background-color: yellow;
+    
+}
+
+div.p{
+    text-align: right;
+}
+
+
+div.zeleni{
+    text-align: left;
+    background-color: lightgreen;
+   
+}
+
+
+table, th, td{
+    border: 2px solid green;
+  border-collapse: collapse;
+    
+}
+div.forma{
+    
+  width: 500px;
+ margin: 60px;
+  padding: 20px;
+  border: 2px solid green;
+ 
+}  
+
+  div.razmak{
+    padding-top: 0px;
+  padding-bottom: 0px;
+  
+  }
