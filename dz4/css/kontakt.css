@@ -1,0 +1,80 @@
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.wrapper form {
+  height: 50%;
+  width: 100%;
+  width: auto;
+  background-color: coral;
+  padding: 2rem;
+}
+
+.wrapper form input {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.wrapper button {
+  display: block;
+  padding: 10px 20px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 743px;
+  width: 763px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 743px;
+  width: 763px;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper form {
+    width: auto;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper form {
+    width: auto;
+    margin: 50px auto;
+  }
+
+  .mapouter {
+    height: 400px;
+    width: 400px;
+  }
+  .gmap_canvas {
+    width: 400px;
+    height: 400px;
+  }
+}

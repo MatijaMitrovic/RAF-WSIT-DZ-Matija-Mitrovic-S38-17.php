@@ -1,0 +1,32 @@
+@color1: #ffffff;
+@wrap: wrapper;
+@galerija: galerijaSlika;
+
+.@{wrap} {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.@{wrap} .main-text {
+  text-align: center;
+  background-color: @color1;
+  padding: 2rem;
+}
+
+.@{wrap} .w-50 {
+  margin: 0 auto;
+}
+
+.@{wrap} .carousel-indicators li {
+  background-color: black;
+}
+
+#@{galerija} .carousel-control-next-icon,
+#@{galerija} .carousel-control-prev-icon {
+  background-color: black;
+}
+
+#@{galerija} {
+  min-height: 50vh;
+  background-color: white;
+}

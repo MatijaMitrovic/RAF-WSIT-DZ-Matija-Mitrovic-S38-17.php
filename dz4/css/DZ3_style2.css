@@ -1,0 +1,15 @@
+.myDiv2 {
+  margin: 50px auto;
+  border: 5px outset red;
+  background-color: gray;
+  height: 400px;
+  width: 1200px;
+}
+
+@media (max-width: 1200px) {
+  .myDiv2 {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+  }
+}

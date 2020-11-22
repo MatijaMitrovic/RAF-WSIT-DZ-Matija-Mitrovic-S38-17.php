@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.wrapper .main-text {
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+}
+
+.wrapper .w-50 {
+  margin: 0 auto;
+}
+
+.wrapper .carousel-indicators li {
+  background-color: black;
+}
+
+#galerijaSlika .carousel-control-next-icon,
+#galerijaSlika .carousel-control-prev-icon {
+  background-color: black;
+}
+
+#galerijaSlika {
+  min-height: 50vh;
+  background-color: white;
+}
